@@ -1,0 +1,22 @@
+{
+  "name": "Champion_Evolving",
+  "type": "evolving_candidate",
+  "total_moves_learned": 50,
+  "contributors": [],
+  "last_contributor": null,
+  "last_updated": "2026-10-02 02:07:37",
+  "weights": {
+    "w_objective": 4321.0,
+    "w_hand_flush": 987.0,
+    "w_ladder_perk": 150.0,
+    "w_anti_feed": 300.0,
+    "w_capping": 80.0,
+    "w_discard_steal": 35.0,
+    "w_opp_obj_sacrifice": 200.0,
+    "w_endgame_threat_veto": 1500.0,
+    "w_joker_conservation": 280.0,
+    "w_omni_preservation": 150.0,
+    "w_discard_unlock": 50.0,
+    "w_hand_diversity": 30.0
+  }
+}

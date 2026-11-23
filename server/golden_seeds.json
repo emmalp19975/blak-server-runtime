@@ -1,0 +1,2369 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-30T16:15:16.032109",
+    "hunter_version": "2.0_human_fair_adept",
+    "bot_evaluator": "Level 3: Adept (Honest Fog-of-War)",
+    "rules": {
+      "2_players": "seat reversal tested, avg margin <= 3.5, max gap <= 2, max burst <= 6, loser clears >= 11",
+      "3_players": "all 3 players clear >= 9 objectives, max gap <= 2, max burst <= 6",
+      "4_players": "all 4 players clear >= 8 objectives, max gap <= 2, max burst <= 6"
+    },
+    "total_hunt_time_seconds": 945.8
+  },
+  "2_players": [
+    {
+      "seed": 30068,
+      "turns_avg": 21.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 30112,
+      "turns_avg": 22.0,
+      "avg_margin": 1.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 85.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 30109,
+      "turns_avg": 20.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 30142,
+      "turns_avg": 25.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 80.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 30229,
+      "turns_avg": 21.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 30272,
+      "turns_avg": 11.0,
+      "avg_margin": 3.0,
+      "max_gap": 1,
+      "max_burst": 6,
+      "fairness_score": 80.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 30322,
+      "turns_avg": 20.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 30355,
+      "turns_avg": 18.0,
+      "avg_margin": 1.0,
+      "max_gap": 1,
+      "max_burst": 5,
+      "fairness_score": 90.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 30381,
+      "turns_avg": 24.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 30481,
+      "turns_avg": 23.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 30517,
+      "turns_avg": 21.0,
+      "avg_margin": 1.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 85.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 30526,
+      "turns_avg": 25.0,
+      "avg_margin": 1.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 85.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 30568,
+      "turns_avg": 16.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 30588,
+      "turns_avg": 18.0,
+      "avg_margin": 1.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 85.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 30590,
+      "turns_avg": 16.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 30707,
+      "turns_avg": 22.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 30749,
+      "turns_avg": 17.0,
+      "avg_margin": 3.0,
+      "max_gap": 1,
+      "max_burst": 4,
+      "fairness_score": 80.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 30913,
+      "turns_avg": 18.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 30987,
+      "turns_avg": 10.0,
+      "avg_margin": 2.0,
+      "max_gap": 0,
+      "max_burst": 6,
+      "fairness_score": 90.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 30979,
+      "turns_avg": 22.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 30962,
+      "turns_avg": 20.0,
+      "avg_margin": 1.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 85.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 31028,
+      "turns_avg": 14.0,
+      "avg_margin": 2.0,
+      "max_gap": 1,
+      "max_burst": 6,
+      "fairness_score": 85.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 31073,
+      "turns_avg": 16.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 31084,
+      "turns_avg": 17.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 80.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 31110,
+      "turns_avg": 19.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 31215,
+      "turns_avg": 17.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 31308,
+      "turns_avg": 16.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 31337,
+      "turns_avg": 19.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 31373,
+      "turns_avg": 17.0,
+      "avg_margin": 3.0,
+      "max_gap": 1,
+      "max_burst": 4,
+      "fairness_score": 80.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 31362,
+      "turns_avg": 26.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 31415,
+      "turns_avg": 14.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 31435,
+      "turns_avg": 24.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 31498,
+      "turns_avg": 14.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 31526,
+      "turns_avg": 11.0,
+      "avg_margin": 1.0,
+      "max_gap": 1,
+      "max_burst": 6,
+      "fairness_score": 90.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 31539,
+      "turns_avg": 20.0,
+      "avg_margin": 1.0,
+      "max_gap": 1,
+      "max_burst": 3,
+      "fairness_score": 90.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 31570,
+      "turns_avg": 19.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 80.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 31610,
+      "turns_avg": 19.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 31626,
+      "turns_avg": 18.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 31644,
+      "turns_avg": 19.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 31856,
+      "turns_avg": 16.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 31870,
+      "turns_avg": 24.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 31905,
+      "turns_avg": 27.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 80.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 31902,
+      "turns_avg": 20.0,
+      "avg_margin": 1.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 85.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 31948,
+      "turns_avg": 18.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 32003,
+      "turns_avg": 14.0,
+      "avg_margin": 2.0,
+      "max_gap": 1,
+      "max_burst": 4,
+      "fairness_score": 85.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 32032,
+      "turns_avg": 23.0,
+      "avg_margin": 2.0,
+      "max_gap": 1,
+      "max_burst": 4,
+      "fairness_score": 85.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 32063,
+      "turns_avg": 22.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 32086,
+      "turns_avg": 17.0,
+      "avg_margin": 3.0,
+      "max_gap": 1,
+      "max_burst": 6,
+      "fairness_score": 80.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 32117,
+      "turns_avg": 22.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 32254,
+      "turns_avg": 21.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 32359,
+      "turns_avg": 17.0,
+      "avg_margin": 3.0,
+      "max_gap": 1,
+      "max_burst": 5,
+      "fairness_score": 80.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 32411,
+      "turns_avg": 19.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 32504,
+      "turns_avg": 22.0,
+      "avg_margin": 1.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 85.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 32551,
+      "turns_avg": 19.0,
+      "avg_margin": 1.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 85.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 32601,
+      "turns_avg": 19.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 80.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 32642,
+      "turns_avg": 16.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 32658,
+      "turns_avg": 18.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 32653,
+      "turns_avg": 22.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 32740,
+      "turns_avg": 14.0,
+      "avg_margin": 1.0,
+      "max_gap": 1,
+      "max_burst": 5,
+      "fairness_score": 90.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 32775,
+      "turns_avg": 17.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 32769,
+      "turns_avg": 17.0,
+      "avg_margin": 1.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 85.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 32801,
+      "turns_avg": 25.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 80.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 32858,
+      "turns_avg": 18.0,
+      "avg_margin": 3.0,
+      "max_gap": 1,
+      "max_burst": 5,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 32958,
+      "turns_avg": 18.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 33052,
+      "turns_avg": 15.0,
+      "avg_margin": 2.0,
+      "max_gap": 1,
+      "max_burst": 6,
+      "fairness_score": 85.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 33087,
+      "turns_avg": 12.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 33176,
+      "turns_avg": 19.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 33199,
+      "turns_avg": 22.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 33195,
+      "turns_avg": 21.0,
+      "avg_margin": 2.0,
+      "max_gap": 1,
+      "max_burst": 4,
+      "fairness_score": 85.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 33202,
+      "turns_avg": 13.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 33341,
+      "turns_avg": 22.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 33321,
+      "turns_avg": 30.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 33335,
+      "turns_avg": 17.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 33366,
+      "turns_avg": 11.0,
+      "avg_margin": 3.0,
+      "max_gap": 1,
+      "max_burst": 6,
+      "fairness_score": 80.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 33421,
+      "turns_avg": 22.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 33503,
+      "turns_avg": 24.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 33512,
+      "turns_avg": 21.0,
+      "avg_margin": 1.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 85.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 33649,
+      "turns_avg": 18.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 33788,
+      "turns_avg": 24.0,
+      "avg_margin": 1.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 85.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 33838,
+      "turns_avg": 17.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 33932,
+      "turns_avg": 21.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 33977,
+      "turns_avg": 16.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 33979,
+      "turns_avg": 21.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 80.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 34029,
+      "turns_avg": 17.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 34053,
+      "turns_avg": 14.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 34185,
+      "turns_avg": 19.0,
+      "avg_margin": 1.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 85.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 34196,
+      "turns_avg": 21.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 34226,
+      "turns_avg": 19.0,
+      "avg_margin": 1.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 85.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 34217,
+      "turns_avg": 21.0,
+      "avg_margin": 1.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 85.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 34265,
+      "turns_avg": 10.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 34294,
+      "turns_avg": 17.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 75.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 34295,
+      "turns_avg": 15.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 80.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 34320,
+      "turns_avg": 16.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 34406,
+      "turns_avg": 18.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 4,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 34521,
+      "turns_avg": 14.0,
+      "avg_margin": 3.0,
+      "max_gap": 1,
+      "max_burst": 5,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 34520,
+      "turns_avg": 20.0,
+      "avg_margin": 2.0,
+      "max_gap": 1,
+      "max_burst": 4,
+      "fairness_score": 85.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 34583,
+      "turns_avg": 15.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 80.0,
+      "match_a_winner": "P1",
+      "match_b_winner": "P2"
+    },
+    {
+      "seed": 34613,
+      "turns_avg": 20.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 5,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 34688,
+      "turns_avg": 16.0,
+      "avg_margin": 2.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 80.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    },
+    {
+      "seed": 34683,
+      "turns_avg": 18.0,
+      "avg_margin": 3.0,
+      "max_gap": 2,
+      "max_burst": 6,
+      "fairness_score": 75.0,
+      "match_a_winner": "P2",
+      "match_b_winner": "P1"
+    }
+  ],
+  "3_players": [
+    {
+      "seed": 50045,
+      "turns": 22,
+      "winner": "P1",
+      "min_cleared": 11,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 12,
+        "P3": 11
+      }
+    },
+    {
+      "seed": 50054,
+      "turns": 24,
+      "winner": "P3",
+      "min_cleared": 11,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 11,
+        "P2": 13,
+        "P3": 15
+      }
+    },
+    {
+      "seed": 50248,
+      "turns": 35,
+      "winner": "P2",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 4,
+      "scores": {
+        "P1": 13,
+        "P2": 15,
+        "P3": 9
+      }
+    },
+    {
+      "seed": 50262,
+      "turns": 26,
+      "winner": "P2",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 11,
+        "P2": 15,
+        "P3": 10
+      }
+    },
+    {
+      "seed": 50299,
+      "turns": 26,
+      "winner": "P2",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 4,
+      "scores": {
+        "P1": 13,
+        "P2": 15,
+        "P3": 9
+      }
+    },
+    {
+      "seed": 50465,
+      "turns": 30,
+      "winner": "P3",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 14,
+        "P2": 10,
+        "P3": 15
+      }
+    },
+    {
+      "seed": 50518,
+      "turns": 22,
+      "winner": "P1",
+      "min_cleared": 12,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 12,
+        "P3": 14
+      }
+    },
+    {
+      "seed": 50567,
+      "turns": 30,
+      "winner": "P3",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 4,
+      "scores": {
+        "P1": 9,
+        "P2": 13,
+        "P3": 15
+      }
+    },
+    {
+      "seed": 50597,
+      "turns": 18,
+      "winner": "P3",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 9,
+        "P2": 11,
+        "P3": 15
+      }
+    },
+    {
+      "seed": 50619,
+      "turns": 28,
+      "winner": "P1",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 4,
+      "scores": {
+        "P1": 15,
+        "P2": 9,
+        "P3": 12
+      }
+    },
+    {
+      "seed": 50639,
+      "turns": 29,
+      "winner": "P2",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 10,
+        "P2": 15,
+        "P3": 11
+      }
+    },
+    {
+      "seed": 50701,
+      "turns": 23,
+      "winner": "P2",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 9,
+        "P2": 15,
+        "P3": 10
+      }
+    },
+    {
+      "seed": 50723,
+      "turns": 20,
+      "winner": "P2",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 11,
+        "P2": 15,
+        "P3": 9
+      }
+    },
+    {
+      "seed": 50802,
+      "turns": 31,
+      "winner": "P1",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 13,
+        "P3": 9
+      }
+    },
+    {
+      "seed": 50864,
+      "turns": 21,
+      "winner": "P3",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 11,
+        "P2": 9,
+        "P3": 15
+      }
+    },
+    {
+      "seed": 50862,
+      "turns": 26,
+      "winner": "P2",
+      "min_cleared": 12,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 12,
+        "P2": 15,
+        "P3": 13
+      }
+    },
+    {
+      "seed": 50966,
+      "turns": 28,
+      "winner": "P1",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 4,
+      "scores": {
+        "P1": 15,
+        "P2": 13,
+        "P3": 9
+      }
+    },
+    {
+      "seed": 51105,
+      "turns": 16,
+      "winner": "P1",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 10,
+        "P3": 13
+      }
+    },
+    {
+      "seed": 51303,
+      "turns": 19,
+      "winner": "P1",
+      "min_cleared": 11,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 11,
+        "P3": 12
+      }
+    },
+    {
+      "seed": 51333,
+      "turns": 21,
+      "winner": "P3",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 13,
+        "P2": 9,
+        "P3": 15
+      }
+    },
+    {
+      "seed": 51343,
+      "turns": 22,
+      "winner": "P1",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 15,
+        "P2": 12,
+        "P3": 9
+      }
+    },
+    {
+      "seed": 51374,
+      "turns": 25,
+      "winner": "P1",
+      "min_cleared": 11,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 11,
+        "P3": 13
+      }
+    },
+    {
+      "seed": 51389,
+      "turns": 27,
+      "winner": "P3",
+      "min_cleared": 13,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 14,
+        "P2": 13,
+        "P3": 15
+      }
+    },
+    {
+      "seed": 51434,
+      "turns": 21,
+      "winner": "P3",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 10,
+        "P2": 12,
+        "P3": 15
+      }
+    },
+    {
+      "seed": 51454,
+      "turns": 21,
+      "winner": "P3",
+      "min_cleared": 13,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 13,
+        "P2": 14,
+        "P3": 15
+      }
+    },
+    {
+      "seed": 51505,
+      "turns": 17,
+      "winner": "P2",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 13,
+        "P2": 15,
+        "P3": 10
+      }
+    },
+    {
+      "seed": 51599,
+      "turns": 29,
+      "winner": "P2",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 4,
+      "scores": {
+        "P1": 13,
+        "P2": 15,
+        "P3": 9
+      }
+    },
+    {
+      "seed": 51679,
+      "turns": 23,
+      "winner": "P2",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 10,
+        "P2": 15,
+        "P3": 10
+      }
+    },
+    {
+      "seed": 51692,
+      "turns": 24,
+      "winner": "P3",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 11,
+        "P2": 9,
+        "P3": 15
+      }
+    },
+    {
+      "seed": 51686,
+      "turns": 31,
+      "winner": "P1",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 15,
+        "P2": 10,
+        "P3": 14
+      }
+    },
+    {
+      "seed": 51709,
+      "turns": 28,
+      "winner": "P1",
+      "min_cleared": 12,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 13,
+        "P3": 12
+      }
+    },
+    {
+      "seed": 51774,
+      "turns": 15,
+      "winner": "P3",
+      "min_cleared": 10,
+      "max_gap": 1,
+      "max_burst": 6,
+      "scores": {
+        "P1": 10,
+        "P2": 10,
+        "P3": 15
+      }
+    },
+    {
+      "seed": 51812,
+      "turns": 14,
+      "winner": "P2",
+      "min_cleared": 10,
+      "max_gap": 1,
+      "max_burst": 6,
+      "scores": {
+        "P1": 12,
+        "P2": 15,
+        "P3": 10
+      }
+    },
+    {
+      "seed": 52020,
+      "turns": 27,
+      "winner": "P3",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 11,
+        "P2": 10,
+        "P3": 15
+      }
+    },
+    {
+      "seed": 52034,
+      "turns": 18,
+      "winner": "P3",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 9,
+        "P2": 10,
+        "P3": 15
+      }
+    },
+    {
+      "seed": 52093,
+      "turns": 20,
+      "winner": "P2",
+      "min_cleared": 11,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 11,
+        "P2": 15,
+        "P3": 11
+      }
+    },
+    {
+      "seed": 52119,
+      "turns": 23,
+      "winner": "P2",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 10,
+        "P2": 15,
+        "P3": 11
+      }
+    },
+    {
+      "seed": 52271,
+      "turns": 23,
+      "winner": "P2",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 9,
+        "P2": 15,
+        "P3": 11
+      }
+    },
+    {
+      "seed": 52300,
+      "turns": 25,
+      "winner": "P1",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 10,
+        "P3": 9
+      }
+    },
+    {
+      "seed": 52334,
+      "turns": 27,
+      "winner": "P3",
+      "min_cleared": 11,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 11,
+        "P2": 14,
+        "P3": 15
+      }
+    },
+    {
+      "seed": 52388,
+      "turns": 26,
+      "winner": "P2",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 12,
+        "P2": 15,
+        "P3": 10
+      }
+    },
+    {
+      "seed": 52460,
+      "turns": 22,
+      "winner": "P1",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 12,
+        "P3": 10
+      }
+    },
+    {
+      "seed": 52487,
+      "turns": 29,
+      "winner": "P2",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 4,
+      "scores": {
+        "P1": 10,
+        "P2": 15,
+        "P3": 10
+      }
+    },
+    {
+      "seed": 52578,
+      "turns": 20,
+      "winner": "P2",
+      "min_cleared": 12,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 12,
+        "P2": 15,
+        "P3": 12
+      }
+    },
+    {
+      "seed": 52637,
+      "turns": 32,
+      "winner": "P2",
+      "min_cleared": 12,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 13,
+        "P2": 15,
+        "P3": 12
+      }
+    },
+    {
+      "seed": 52663,
+      "turns": 23,
+      "winner": "P2",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 4,
+      "scores": {
+        "P1": 9,
+        "P2": 15,
+        "P3": 9
+      }
+    },
+    {
+      "seed": 52785,
+      "turns": 21,
+      "winner": "P3",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 11,
+        "P2": 10,
+        "P3": 15
+      }
+    },
+    {
+      "seed": 52839,
+      "turns": 31,
+      "winner": "P1",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 14,
+        "P3": 10
+      }
+    },
+    {
+      "seed": 52881,
+      "turns": 25,
+      "winner": "P1",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 9,
+        "P3": 9
+      }
+    },
+    {
+      "seed": 52968,
+      "turns": 32,
+      "winner": "P2",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 4,
+      "scores": {
+        "P1": 12,
+        "P2": 15,
+        "P3": 10
+      }
+    }
+  ],
+  "4_players": [
+    {
+      "seed": 70028,
+      "turns": 30,
+      "winner": "P2",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 12,
+        "P2": 15,
+        "P3": 10,
+        "P4": 12
+      }
+    },
+    {
+      "seed": 70068,
+      "turns": 28,
+      "winner": "P4",
+      "min_cleared": 8,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 8,
+        "P2": 9,
+        "P3": 12,
+        "P4": 15
+      }
+    },
+    {
+      "seed": 70081,
+      "turns": 38,
+      "winner": "P2",
+      "min_cleared": 11,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 12,
+        "P2": 15,
+        "P3": 11,
+        "P4": 11
+      }
+    },
+    {
+      "seed": 70360,
+      "turns": 26,
+      "winner": "P2",
+      "min_cleared": 8,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 8,
+        "P2": 15,
+        "P3": 10,
+        "P4": 8
+      }
+    },
+    {
+      "seed": 70387,
+      "turns": 29,
+      "winner": "P1",
+      "min_cleared": 9,
+      "max_gap": 1,
+      "max_burst": 5,
+      "scores": {
+        "P1": 15,
+        "P2": 11,
+        "P3": 10,
+        "P4": 9
+      }
+    },
+    {
+      "seed": 70455,
+      "turns": 31,
+      "winner": "P3",
+      "min_cleared": 8,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 11,
+        "P2": 8,
+        "P3": 15,
+        "P4": 12
+      }
+    },
+    {
+      "seed": 70485,
+      "turns": 19,
+      "winner": "P3",
+      "min_cleared": 8,
+      "max_gap": 1,
+      "max_burst": 6,
+      "scores": {
+        "P1": 13,
+        "P2": 9,
+        "P3": 15,
+        "P4": 8
+      }
+    },
+    {
+      "seed": 70715,
+      "turns": 33,
+      "winner": "P1",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 12,
+        "P3": 10,
+        "P4": 13
+      }
+    },
+    {
+      "seed": 70759,
+      "turns": 25,
+      "winner": "P1",
+      "min_cleared": 8,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 8,
+        "P3": 11,
+        "P4": 10
+      }
+    },
+    {
+      "seed": 70817,
+      "turns": 33,
+      "winner": "P1",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 15,
+        "P2": 11,
+        "P3": 10,
+        "P4": 10
+      }
+    },
+    {
+      "seed": 70833,
+      "turns": 30,
+      "winner": "P2",
+      "min_cleared": 8,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 9,
+        "P2": 15,
+        "P3": 8,
+        "P4": 12
+      }
+    },
+    {
+      "seed": 70841,
+      "turns": 35,
+      "winner": "P3",
+      "min_cleared": 8,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 8,
+        "P2": 8,
+        "P3": 15,
+        "P4": 13
+      }
+    },
+    {
+      "seed": 70854,
+      "turns": 29,
+      "winner": "P1",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 11,
+        "P3": 13,
+        "P4": 10
+      }
+    },
+    {
+      "seed": 70942,
+      "turns": 32,
+      "winner": "P4",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 12,
+        "P2": 13,
+        "P3": 10,
+        "P4": 15
+      }
+    },
+    {
+      "seed": 71028,
+      "turns": 33,
+      "winner": "P1",
+      "min_cleared": 13,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 14,
+        "P3": 13,
+        "P4": 13
+      }
+    },
+    {
+      "seed": 71242,
+      "turns": 23,
+      "winner": "P3",
+      "min_cleared": 8,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 9,
+        "P2": 9,
+        "P3": 15,
+        "P4": 8
+      }
+    },
+    {
+      "seed": 71292,
+      "turns": 33,
+      "winner": "P1",
+      "min_cleared": 11,
+      "max_gap": 1,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 13,
+        "P3": 13,
+        "P4": 11
+      }
+    },
+    {
+      "seed": 71509,
+      "turns": 37,
+      "winner": "P1",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 9,
+        "P3": 9,
+        "P4": 13
+      }
+    },
+    {
+      "seed": 71560,
+      "turns": 32,
+      "winner": "P4",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 12,
+        "P2": 9,
+        "P3": 9,
+        "P4": 15
+      }
+    },
+    {
+      "seed": 71658,
+      "turns": 28,
+      "winner": "P4",
+      "min_cleared": 8,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 9,
+        "P2": 8,
+        "P3": 12,
+        "P4": 15
+      }
+    },
+    {
+      "seed": 71674,
+      "turns": 36,
+      "winner": "P4",
+      "min_cleared": 12,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 13,
+        "P2": 12,
+        "P3": 12,
+        "P4": 15
+      }
+    },
+    {
+      "seed": 71704,
+      "turns": 23,
+      "winner": "P3",
+      "min_cleared": 8,
+      "max_gap": 1,
+      "max_burst": 5,
+      "scores": {
+        "P1": 10,
+        "P2": 12,
+        "P3": 15,
+        "P4": 8
+      }
+    },
+    {
+      "seed": 71775,
+      "turns": 27,
+      "winner": "P3",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 9,
+        "P2": 12,
+        "P3": 15,
+        "P4": 10
+      }
+    },
+    {
+      "seed": 71881,
+      "turns": 22,
+      "winner": "P2",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 10,
+        "P2": 15,
+        "P3": 10,
+        "P4": 10
+      }
+    },
+    {
+      "seed": 71925,
+      "turns": 28,
+      "winner": "P4",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 10,
+        "P2": 11,
+        "P3": 12,
+        "P4": 15
+      }
+    },
+    {
+      "seed": 71962,
+      "turns": 29,
+      "winner": "P1",
+      "min_cleared": 8,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 9,
+        "P3": 12,
+        "P4": 8
+      }
+    },
+    {
+      "seed": 71976,
+      "turns": 39,
+      "winner": "P3",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 11,
+        "P2": 10,
+        "P3": 15,
+        "P4": 11
+      }
+    },
+    {
+      "seed": 72168,
+      "turns": 39,
+      "winner": "P3",
+      "min_cleared": 11,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 12,
+        "P2": 11,
+        "P3": 15,
+        "P4": 14
+      }
+    },
+    {
+      "seed": 72243,
+      "turns": 22,
+      "winner": "P2",
+      "min_cleared": 10,
+      "max_gap": 1,
+      "max_burst": 6,
+      "scores": {
+        "P1": 11,
+        "P2": 15,
+        "P3": 11,
+        "P4": 10
+      }
+    },
+    {
+      "seed": 72433,
+      "turns": 36,
+      "winner": "P4",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 11,
+        "P2": 9,
+        "P3": 12,
+        "P4": 15
+      }
+    },
+    {
+      "seed": 72644,
+      "turns": 20,
+      "winner": "P4",
+      "min_cleared": 8,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 8,
+        "P2": 11,
+        "P3": 13,
+        "P4": 15
+      }
+    },
+    {
+      "seed": 72649,
+      "turns": 30,
+      "winner": "P2",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 9,
+        "P2": 15,
+        "P3": 13,
+        "P4": 14
+      }
+    },
+    {
+      "seed": 72688,
+      "turns": 25,
+      "winner": "P1",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 11,
+        "P3": 10,
+        "P4": 14
+      }
+    },
+    {
+      "seed": 72703,
+      "turns": 28,
+      "winner": "P4",
+      "min_cleared": 8,
+      "max_gap": 1,
+      "max_burst": 6,
+      "scores": {
+        "P1": 8,
+        "P2": 9,
+        "P3": 10,
+        "P4": 15
+      }
+    },
+    {
+      "seed": 72755,
+      "turns": 37,
+      "winner": "P1",
+      "min_cleared": 8,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 15,
+        "P2": 10,
+        "P3": 8,
+        "P4": 9
+      }
+    },
+    {
+      "seed": 72848,
+      "turns": 27,
+      "winner": "P3",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 9,
+        "P2": 13,
+        "P3": 15,
+        "P4": 10
+      }
+    },
+    {
+      "seed": 73160,
+      "turns": 21,
+      "winner": "P1",
+      "min_cleared": 8,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 8,
+        "P3": 8,
+        "P4": 9
+      }
+    },
+    {
+      "seed": 73202,
+      "turns": 40,
+      "winner": "P4",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 14,
+        "P2": 11,
+        "P3": 10,
+        "P4": 15
+      }
+    },
+    {
+      "seed": 73215,
+      "turns": 35,
+      "winner": "P3",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 9,
+        "P2": 13,
+        "P3": 15,
+        "P4": 11
+      }
+    },
+    {
+      "seed": 73226,
+      "turns": 22,
+      "winner": "P2",
+      "min_cleared": 8,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 10,
+        "P2": 15,
+        "P3": 8,
+        "P4": 11
+      }
+    },
+    {
+      "seed": 73276,
+      "turns": 17,
+      "winner": "P1",
+      "min_cleared": 9,
+      "max_gap": 1,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 12,
+        "P3": 11,
+        "P4": 9
+      }
+    },
+    {
+      "seed": 73318,
+      "turns": 29,
+      "winner": "P1",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 9,
+        "P3": 11,
+        "P4": 14
+      }
+    },
+    {
+      "seed": 73376,
+      "turns": 26,
+      "winner": "P2",
+      "min_cleared": 8,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 8,
+        "P2": 15,
+        "P3": 8,
+        "P4": 12
+      }
+    },
+    {
+      "seed": 73464,
+      "turns": 20,
+      "winner": "P4",
+      "min_cleared": 8,
+      "max_gap": 1,
+      "max_burst": 6,
+      "scores": {
+        "P1": 8,
+        "P2": 12,
+        "P3": 13,
+        "P4": 15
+      }
+    },
+    {
+      "seed": 73569,
+      "turns": 32,
+      "winner": "P4",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 9,
+        "P2": 13,
+        "P3": 11,
+        "P4": 15
+      }
+    },
+    {
+      "seed": 73658,
+      "turns": 23,
+      "winner": "P3",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 14,
+        "P2": 9,
+        "P3": 15,
+        "P4": 11
+      }
+    },
+    {
+      "seed": 73706,
+      "turns": 25,
+      "winner": "P1",
+      "min_cleared": 10,
+      "max_gap": 2,
+      "max_burst": 5,
+      "scores": {
+        "P1": 15,
+        "P2": 10,
+        "P3": 10,
+        "P4": 14
+      }
+    },
+    {
+      "seed": 73765,
+      "turns": 35,
+      "winner": "P3",
+      "min_cleared": 9,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 11,
+        "P2": 10,
+        "P3": 15,
+        "P4": 9
+      }
+    },
+    {
+      "seed": 73982,
+      "turns": 22,
+      "winner": "P2",
+      "min_cleared": 8,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 8,
+        "P2": 15,
+        "P3": 8,
+        "P4": 10
+      }
+    },
+    {
+      "seed": 74080,
+      "turns": 29,
+      "winner": "P1",
+      "min_cleared": 11,
+      "max_gap": 2,
+      "max_burst": 6,
+      "scores": {
+        "P1": 15,
+        "P2": 13,
+        "P3": 11,
+        "P4": 12
+      }
+    }
+  ]
+}

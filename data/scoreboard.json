@@ -1,0 +1,134 @@
+{
+  "champion": {
+    "name": "Champion (MEL)",
+    "type": "bot",
+    "rating": 1662,
+    "title_defenses": 0,
+    "crowned_at": "2026-09-30 19:42:54",
+    "weights": {
+      "w_objective": 2600.0,
+      "w_hand_flush": 600.0,
+      "w_ladder_perk": 243.0,
+      "w_anti_feed": 282.0,
+      "w_capping": 92.0,
+      "w_discard_steal": 64.0,
+      "w_opp_obj_sacrifice": 0.0,
+      "w_endgame_threat_veto": 1500.0,
+      "w_joker_conservation": 252.0,
+      "w_omni_preservation": 160.0,
+      "w_discard_unlock": 62.0,
+      "w_hand_diversity": 30.0
+    },
+    "mutation_tag": "MEL_mut_68",
+    "source_player": "MEL"
+  },
+  "leaderboard": [
+    {
+      "name": "Champion (EMMALP)",
+      "type": "bot",
+      "rating": 2002,
+      "wins": 41,
+      "losses": 2
+    },
+    {
+      "name": "Champion (Giga nigga)",
+      "type": "bot",
+      "rating": 2002,
+      "wins": 3,
+      "losses": 0
+    },
+    {
+      "name": "Jose",
+      "type": "player",
+      "rating": 1720,
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "name": "Champion (MEL)",
+      "type": "bot",
+      "rating": 1662,
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "name": "MEL",
+      "type": "player",
+      "rating": 1630,
+      "wins": 18,
+      "losses": 9
+    },
+    {
+      "name": "EMMALP",
+      "type": "player",
+      "rating": 1582,
+      "wins": 12,
+      "losses": 9
+    },
+    {
+      "name": "lol",
+      "type": "player",
+      "rating": 1544,
+      "wins": 4,
+      "losses": 1
+    },
+    {
+      "name": "Grandmaster",
+      "type": "bot",
+      "rating": 1518,
+      "wins": 54,
+      "losses": 51
+    },
+    {
+      "name": "TestTactical",
+      "type": "bot",
+      "rating": 1513,
+      "wins": 39,
+      "losses": 31
+    },
+    {
+      "name": "Aggressive",
+      "type": "bot",
+      "rating": 1498,
+      "wins": 50,
+      "losses": 65
+    },
+    {
+      "name": "Tactical",
+      "type": "bot",
+      "rating": 1479,
+      "wins": 48,
+      "losses": 78
+    },
+    {
+      "name": "Giga nigga",
+      "type": "player",
+      "rating": 1419,
+      "wins": 1,
+      "losses": 8
+    },
+    {
+      "name": "Casual",
+      "type": "bot",
+      "rating": 1397,
+      "wins": 60,
+      "losses": 55
+    },
+    {
+      "name": "CasualChamp",
+      "type": "bot",
+      "rating": 1350,
+      "wins": 1,
+      "losses": 0
+    },
+    {
+      "name": "WeakChamp",
+      "type": "bot",
+      "rating": 1196,
+      "wins": 0,
+      "losses": 1
+    }
+  ],
+  "match_history_count": 527,
+  "mutation_counter": 68
+}
