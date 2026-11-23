@@ -6,6 +6,8 @@ HTTP file server for zero-install browser play.
 """
 
 import asyncio
+import hmac
+import json
 import mimetypes
 import os
 from typing import Optional
@@ -42,12 +44,81 @@ async def process_request(connection, request) -> Optional[Response]:
 
     raw_path: str = request.path.split("?")[0].lstrip("/")
     if raw_path == "health":
+        storage_dir = os.environ.get("BLAK_STORAGE_DIR", "/app/storage")
+        health_payload = json.dumps({
+            "status": "ok",
+            "service": "blak-server",
+            "persistent_storage": os.path.isdir(storage_dir),
+        }).encode("utf-8")
         return Response(
             200,
             "OK",
             Headers([("Content-Type", "application/json; charset=utf-8")]),
-            b'{"status":"ok","service":"blak-server"}',
+            health_payload,
         )
+
+    if raw_path.startswith("admin/"):
+        admin_token = os.environ.get("BLAK_ADMIN_TOKEN", "")
+        auth_header = request.headers.get("Authorization", "")
+        expected = f"Bearer {admin_token}"
+        if not admin_token or not hmac.compare_digest(auth_header, expected):
+            return Response(
+                401,
+                "Unauthorized",
+                Headers([("Content-Type", "application/json; charset=utf-8")]),
+                b'{"error":"Unauthorized"}',
+            )
+
+        data_dir = os.path.join(PROJECT_ROOT, "data")
+        matches_path = os.path.join(data_dir, "training_data", "matches.jsonl")
+        scoreboard_path = os.path.join(data_dir, "scoreboard.json")
+        profiles_dir = os.path.join(data_dir, "profiles")
+
+        if raw_path == "admin/stats":
+            match_count = 0
+            matches_bytes = 0
+            if os.path.isfile(matches_path):
+                matches_bytes = os.path.getsize(matches_path)
+                with open(matches_path, "rb") as mf:
+                    match_count = sum(1 for line in mf if line.strip())
+            profile_count = len([f for f in os.listdir(profiles_dir) if f.endswith(".json")]) if os.path.isdir(profiles_dir) else 0
+            stats = json.dumps({
+                "matches_recorded": match_count,
+                "matches_bytes": matches_bytes,
+                "profiles_count": profile_count,
+                "scoreboard_exists": os.path.isfile(scoreboard_path),
+                "persistent_storage": os.path.isdir(os.environ.get("BLAK_STORAGE_DIR", "/app/storage")),
+            }).encode("utf-8")
+            return Response(200, "OK", Headers([("Content-Type", "application/json; charset=utf-8")]), stats)
+
+        if raw_path == "admin/export/matches":
+            body = await asyncio.to_thread(_read_file_bytes, matches_path) if os.path.isfile(matches_path) else b""
+            return Response(
+                200,
+                "OK",
+                Headers([
+                    ("Content-Type", "application/x-ndjson; charset=utf-8"),
+                    ("Content-Length", str(len(body))),
+                    ("Content-Disposition", 'attachment; filename="matches.jsonl"'),
+                ]),
+                body,
+            )
+
+        if raw_path == "admin/export/scoreboard":
+            body = await asyncio.to_thread(_read_file_bytes, scoreboard_path) if os.path.isfile(scoreboard_path) else b"{}"
+            return Response(200, "OK", Headers([("Content-Type", "application/json; charset=utf-8")]), body)
+
+        if raw_path == "admin/export/profiles":
+            profiles_map = {}
+            if os.path.isdir(profiles_dir):
+                for fname in sorted(os.listdir(profiles_dir)):
+                    if fname.endswith(".json"):
+                        with open(os.path.join(profiles_dir, fname), "r", encoding="utf-8") as pf:
+                            profiles_map[fname] = json.load(pf)
+            body = json.dumps(profiles_map, indent=2).encode("utf-8")
+            return Response(200, "OK", Headers([("Content-Type", "application/json; charset=utf-8")]), body)
+
+        return Response(404, "Not Found", Headers([("Content-Type", "application/json; charset=utf-8")]), b'{"error":"Unknown admin endpoint"}')
 
     if not os.path.isdir(WEB_DIR) or not os.path.isfile(os.path.join(WEB_DIR, "index.html")):
         return Response(
